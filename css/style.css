@@ -1,0 +1,234 @@
+body{
+    max-width: 1100px;
+    margin: auto;
+
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+header img {
+    width: 300px;
+}
+
+nav {
+    color: white;
+    display: flex;  
+
+}
+
+li {
+    list-style-type: none;
+    margin: 0 5px 0 5px;
+}
+
+.nav{
+    align-self: flex-end;
+    margin: 0 15px 15px 15px;
+}
+
+/*--------------------------------------------------------------*/
+
+hero {
+    background-image: url("/image/camion.png");
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    height: 500px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+    
+}
+.hero-buttons {
+    display: grid;
+    justify-content: flex-end;
+    padding: 30px 60px 0 0;
+   
+} 
+
+.hero-buttons button {
+    width: 120px;
+    height: 25px;
+    background-color: saddlebrown;
+    border: 0.5px solid rgba(0, 0, 0, .9);
+    color: white;
+}
+
+.hero-buttons button:hover{
+    background-color: rgb(184, 110, 57);
+    cursor: pointer;
+}  
+
+.hero-text {
+    align-self: end;
+    padding: 0 0px 20px 60px;
+    
+}
+
+.hero-text p{
+    margin: 0;
+}
+
+.hero-text h1{
+    margin: 0 0 10px 0;
+    color: saddlebrown;
+    text-shadow: 2px 2px 5px rgb(224, 220, 220);
+}
+
+.hero-text .p-top{
+    text-align: center;
+    color: white;
+}
+
+/*------------------SECTION 1---------------------------------------*/
+
+.section-tittle{
+    border-top: 2px solid saddlebrown;
+    margin: 0 20px 0 20px;
+    
+}
+
+.section-tittle button{
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 0 0 50px 0;
+    background-color: saddlebrown;
+    color: white;
+}
+
+.first-section img {
+    height: 350px;
+}
+
+.first-section-container {
+    margin: 20px;
+    background-color: gray;
+    padding: 40px;
+}
+
+.article-img-left  {
+    margin-bottom: 20px;
+}
+
+.article-img-right, .article-img-left  {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+
+.article-img-right .img-right{
+    text-align: right;
+}
+
+/*-------------SECTION 2--------------------------*/
+
+
+.second-section {
+    display: flex;
+}
+.second-section-container {
+    border: black solid 1px;
+    border-radius: 10px;
+    width: 300px;
+    display: grid;
+    padding: 30px 20px 0 20px;;
+    justify-items: center;
+    margin: 20px 0 0 20px;
+    box-shadow: 4px 10px 14px grey;
+}
+.second-section-img{
+    width: 300px;
+    text-align: center;
+    height: 190px;
+}
+
+.second-section-img img{
+    max-width: 90%;
+    max-height: 100%;
+}
+
+.second-section-logo {
+    width: 150px;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -30px;
+    z-index: 2;
+}
+
+.second-section-logo img {
+    max-height: 80%;
+}
+.second-section-text {
+    border: black solid 1px;
+    border-radius: 10px;
+    position: relative;
+    top: -60px;
+    z-index: 1;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-rows: 100px 100px 1fr;
+    margin-top: 50px;
+    padding: 0 30px 20px 30px;
+}
+
+.footer-contact-us{
+    border-bottom: 2px solid rgb(245, 172, 55);
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.footer-contact{
+    display: grid;
+    grid-template-columns: repeat(3,60px 1fr);
+    margin: 0 60px;
+}
+
+.footer-contact div{
+   display: inline;
+}
+
+.footer-contact img{
+    width: 40px;
+    border-radius: 20px;
+}
+
+.footer-logo-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: solid 2px rgb(245, 172, 55);
+    padding-top: 20px;
+}
+
+.footer-logo-panda img{
+    height: 60px;
+}
+
+.footer-socialmedia img{
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+}
+
+.footer-socialmedia {
+    text-align-last: end;
+}
