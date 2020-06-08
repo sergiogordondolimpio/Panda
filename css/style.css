@@ -38,11 +38,9 @@ hero {
     height: 500px;
     background-size: 90%;
     background-position: center;
-    background-repeat: no-repeat;
-   
-    
-    
+    background-repeat: no-repeat;  
 }
+
 .hero-buttons {
     display: grid;
     justify-content: flex-end;
@@ -231,4 +229,15 @@ footer {
 
 .footer-socialmedia {
     text-align-last: end;
+}
+
+/*------------------------Effects------------------*/
+
+.light-car-white{
+    background-image: url("/image/camion-light-white.jpg");
+
+}
+
+.light-car-yellow{
+    background-image: url("/image/camion-light-yellow.jpg");
 }
