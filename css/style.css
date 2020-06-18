@@ -32,7 +32,7 @@ li {
 /*--------------------------------------------------------------*/
 
 hero {
-    background-image: url("/image/camion.png");
+    background-image: url("../image/camion.png");
     display: grid;
     grid-template-rows: 1fr 2fr;
     height: 500px;
@@ -234,10 +234,10 @@ footer {
 /*------------------------Effects------------------*/
 
 .light-car-white{
-    background-image: url("/image/camion-light-white.jpg");
+    background-image: url("../image/camion-light-white.jpg");
 
 }
 
 .light-car-yellow{
-    background-image: url("/image/camion-light-yellow.jpg");
+    background-image: url("../image/camion-light-yellow.jpg");
 }
